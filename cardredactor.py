@@ -1,10 +1,5 @@
 import tkinter as tk
-from PIL import Image, ImageTk, ImageGrab
-from os import listdir
-from os.path import isfile, join
-import pandas as pd
-from datetime import datetime
-import numpy as np
+from PIL import ImageGrab
 from cards import get_card_image_by_query, get_card_image_random, AmbiguousCardError
 from images import WebImage
 
