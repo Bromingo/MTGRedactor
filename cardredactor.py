@@ -48,7 +48,7 @@ def activate_redaction(event):
 def redact(event):
     global lastx, lasty, latest_lines
     x, y = event.x, event.y
-    added_line = canvas.create_line((lastx, lasty, x, lasty), width=18)
+    added_line = canvas.create_line((lastx, lasty, x, lasty), width=21)
     latest_lines.append(added_line)
     #  --- PIL
     lastx = x
